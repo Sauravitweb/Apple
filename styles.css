@@ -29,7 +29,7 @@ header {
 }
 
 .nav-item:hover .submenu {
-    display: flex;
+    display: block;
 }
 
 .submenu {
@@ -39,9 +39,9 @@ header {
     left: 0;
     background-color: #444;
     width: 100vw;
-    justify-content: space-around;
     padding: 10px 0;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    justify-content: space-around;
 }
 
 .submenu-item {
