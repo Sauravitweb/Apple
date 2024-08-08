@@ -29,19 +29,20 @@ header {
 }
 
 .nav-item:hover .submenu {
-    display: block;
+    display: flex;
 }
 
 .submenu {
     display: none;
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 50px; /* Adjust to below the navbar */
     left: 0;
     background-color: #444;
-    width: 100vw;
+    width: 100%;
     padding: 10px 0;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     justify-content: space-around;
+    z-index: 9;
 }
 
 .submenu-item {
